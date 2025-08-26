@@ -129,6 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 42740290}
   - component: {fileID: 42740289}
+  - component: {fileID: 42740291}
   m_Layer: 0
   m_Name: Buttons_Red
   m_TagString: Activator
@@ -206,6 +207,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2125296781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &42740291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 42740288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cda88de336ec8942b026c5db138bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultImage: {fileID: 21300000, guid: 1bbda9210988dfd4db252a09838d254f, type: 3}
+  pressedImage: {fileID: 21300000, guid: cacc39dd2a4e88a43aadeddd73e9b1e2, type: 3}
+  KeyToPress: 273
 --- !u!1 &238653395
 GameObject:
   m_ObjectHideFlags: 0
@@ -374,6 +390,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335185281}
   - component: {fileID: 335185280}
+  - component: {fileID: 335185282}
   m_Layer: 0
   m_Name: Buttons_Yellow
   m_TagString: Activator
@@ -451,6 +468,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2125296781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &335185282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335185279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cda88de336ec8942b026c5db138bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultImage: {fileID: 21300000, guid: ed2984e24d5df6f46a80ead6ad2964fa, type: 3}
+  pressedImage: {fileID: 21300000, guid: 8f47ff751b3bdec48862adf0100c74fa, type: 3}
+  KeyToPress: 274
 --- !u!1 &450328914
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,6 +493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 450328916}
   - component: {fileID: 450328915}
+  - component: {fileID: 450328917}
   m_Layer: 0
   m_Name: Buttons_Blue
   m_TagString: Activator
@@ -538,6 +571,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2125296781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &450328917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450328914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cda88de336ec8942b026c5db138bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultImage: {fileID: 21300000, guid: ad187f74f2d0cc4499f39a0267b9eda8, type: 3}
+  pressedImage: {fileID: 21300000, guid: 18bf226de2d59284e904c26430f659c9, type: 3}
+  KeyToPress: 276
 --- !u!1 &515992356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1978,6 +2026,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1954822627}
   - component: {fileID: 1954822626}
+  - component: {fileID: 1954822628}
   m_Layer: 0
   m_Name: Buttons_Green
   m_TagString: Activator
@@ -2055,6 +2104,21 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2125296781}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1954822628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1954822625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cda88de336ec8942b026c5db138bd94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultImage: {fileID: 21300000, guid: c3c13b1f8baa5dd4a86d3dc186668178, type: 3}
+  pressedImage: {fileID: 21300000, guid: 2d10ec486261df445b73774ff82f1b69, type: 3}
+  KeyToPress: 275
 --- !u!1 &1971809611
 GameObject:
   m_ObjectHideFlags: 0
