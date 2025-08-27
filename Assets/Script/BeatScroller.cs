@@ -2,27 +2,17 @@ using UnityEngine;
 
 public class BeatScroller : MonoBehaviour
 {
-    public float beatTempo;
-
+    private float beatTempo; // Movement speed per second
     public bool hasStarted;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void SetTempo(float bpm)
     {
-        beatTempo = beatTempo / 60f;
+        beatTempo = bpm / 60f; // Convert BPM to units/second
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (!hasStarted)
-        {
-            //if (Input.anyKeyDown)
-            //{
-            //    hasStarted = true;
-            //}
-        }
-        else
+        if (hasStarted)
         {
             transform.position -= new Vector3(0f, beatTempo * Time.deltaTime, 0f);
         }
